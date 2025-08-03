@@ -143,6 +143,8 @@ target_names_list = [target_names_map[i] for i in sorted(target_names_map.keys()
 print(classification_report(y_test, y_pred, target_names=target_names_list))
 print("="*50)
 
+
+#-------------------------ส่วนของการนำโมเดลมาใช้-----------------------------------
 # ==============================================================================
 # ส่วนที่ 1: ติดตั้ง Library และเตรียม Environment
 # ==============================================================================
